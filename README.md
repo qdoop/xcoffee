@@ -1,0 +1,2 @@
+# xcoffee
+VisualStudio CoffeeScript Extensions
