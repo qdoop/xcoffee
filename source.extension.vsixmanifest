@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="xcoffee..5ff5b580-e762-4871-bb85-7814918c98cb" Version="1.0.50214.55" Language="en-US" Publisher="qdoop" />
+    <Identity Id="xcoffee..5ff5b580-e762-4871-bb85-7814918c98cb" Version="1.0.50214.56" Language="en-US" Publisher="qdoop" />
     <DisplayName>xcoffee</DisplayName>
-    <Description xml:space="preserve">Limited Intellisense for CoffeeScript. VisualStudio Extension (EXPERIMENTAL)</Description>
+    <Description xml:space="preserve">Limited Intellisense for CoffeeScript. (EXPERIMENTAL)</Description>
     <MoreInfo>https://github.com/qdoop/xcoffee</MoreInfo>
     <GettingStartedGuide>None</GettingStartedGuide>
     <ReleaseNotes>Experimental</ReleaseNotes>
     <Icon>qdoop.ico</Icon>
     <PreviewImage>qdoop.png</PreviewImage>
-    <Tags>CoffeeScript Intellisense Autocomplete</Tags>
+    <Tags>CoffeeScript, IntelliSense, Autocomplete</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
