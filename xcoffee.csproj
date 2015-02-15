@@ -75,12 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="atest.coffee" />
-    <None Include="atest.js.map">
-      <DependentUpon>atest.js</DependentUpon>
-    </None>
-    <None Include="atest.min.js.map">
-      <DependentUpon>atest.min.js</DependentUpon>
-    </None>
     <None Include="LICENSE" />
     <None Include="README.md" />
     <None Include="source.extension.vsixmanifest">
@@ -89,12 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="atest.js">
-      <DependentUpon>atest.coffee</DependentUpon>
-    </Content>
-    <Content Include="atest.min.js">
-      <DependentUpon>atest.js</DependentUpon>
-    </Content>
     <Content Include="qdoop.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>

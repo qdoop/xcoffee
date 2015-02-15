@@ -127,12 +127,13 @@ namespace qdoop.EditorExtensions.CoffeeScript
             //if (hash > -1 && hash < triggerPoint.Value.Position || (index > -1 && (start - line.Start.Position) > index))
             //    return;
 
-            ///if (start <= line.Start) return;
+            if ("" == text.Trim()) return;
 
-            while ( start > line.Start
-                && !char.IsWhiteSpace((start - 1).GetChar()) 
-                && -1 == "`'#=+-*/,.[]{}()<>?$%^&@!~\"\t\r\n ".IndexOf((start - 1).GetChar())
-                )
+            //while ( start > line.Start
+            //    && !char.IsWhiteSpace((start - 1).GetChar()) 
+            //    && -1 == "`'#=+-*/,.[]{}()<>?$%^&@!~\"\t\r\n ".IndexOf((start - 1).GetChar())
+            //    )
+            while(  line.Start<start && (char.IsLetterOrDigit((start - 1).GetChar()) || -1<"$_".IndexOf((start - 1).GetChar())) )
             {
                 start -= 1;
             }
